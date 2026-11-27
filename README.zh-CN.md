@@ -98,11 +98,11 @@ source("code/扩展分析_阈值调优.R")
 
 | 图 1. 各模型 ROC 曲线对比 | 图 2. 随机森林特征重要性（Top 15） |
 |:---:|:---:|
-| ![](figures/ROC曲线对比.png) | ![](figures/随机森林特征重要性图（top15).png) |
+| ![](figures/roc_comparison.png) | ![](figures/rf_feature_importance_top15.png) |
 
 | 图 3. 交易样本标签分布 | 图 4. 数值特征相关系数热力图 |
 |:---:|:---:|
-| ![](figures/交易样本标签分布.png) | ![](figures/特征相关系数热力图.png) |
+| ![](figures/label_distribution.png) | ![](figures/correlation_heatmap.png) |
 
 其余配图（各模型阈值-指标曲线、XGBoost Top 10 特征重要性、缺失值比例）见 `figures/` 目录。
 
