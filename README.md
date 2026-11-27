@@ -85,17 +85,13 @@ All models evaluated at their own F2-optimal thresholds on a ~30k held-out test 
 
 ## Key Figures
 
-<p align="center">
-  <img src="figures/roc_comparison.png" width="420" alt="ROC curves of all four models">
-  <img src="figures/rf_feature_importance_top15.png" width="420" alt="Random forest feature importance (top 15)">
-</p>
-<p align="center">Figure 1. ROC curves · Figure 2. Random forest feature importance (top 15)</p>
+| Figure 1. ROC Curves | Figure 2. Random Forest Feature Importance (Top 15) |
+|:---:|:---:|
+| ![](figures/roc_comparison.png) | ![](figures/rf_feature_importance_top15.png) |
 
-<p align="center">
-  <img src="figures/label_distribution.png" width="420" alt="Label distribution of 100k sampled transactions">
-  <img src="figures/correlation_heatmap.png" width="420" alt="Correlation heatmap of numeric features">
-</p>
-<p align="center">Figure 3. Label distribution · Figure 4. Correlation heatmap of numeric features</p>
+| Figure 3. Label Distribution | Figure 4. Correlation Heatmap of Numeric Features |
+|:---:|:---:|
+| ![](figures/label_distribution.png) | ![](figures/correlation_heatmap.png) |
 
 Per-model threshold curves (GLM / SVM / RF / XGBoost / DNN), XGBoost top-10 importance, and missing-value bar chart are all in the `figures/` folder.
 
