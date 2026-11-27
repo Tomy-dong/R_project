@@ -97,6 +97,20 @@ source("code/扩展分析_阈值调优.R")
 - DNN 在样本失衡与过参数化叠加下出现识别失效（AUC=0.5018，接近随机猜测），是代价敏感策略与深度网络不匹配的典型反例；
 - 特征重要性显示，距上次交易时长、交易金额、信用评分、夜间交易、跨境交易、失败操作次数是区分欺诈的核心指标。
 
+### 主要图表
+
+<p align="center">
+  <img src="figures/ROC曲线对比.png" width="420" alt="各模型 ROC 曲线对比">
+  <img src="figures/随机森林特征重要性图（top15).png" width="420" alt="随机森林特征重要性（Top15）">
+</p>
+
+<p align="center">
+  <img src="figures/交易样本标签分布.png" width="420" alt="交易样本标签分布">
+  <img src="figures/特征相关系数热力图.png" width="420" alt="特征相关系数热力图">
+</p>
+
+其余配图（各模型阈值-指标曲线、XGBoost 特征重要性、缺失值比例）见 `figures/` 目录。
+
 ## 七、论文全文
 
 完整论文见 [paper/不平衡数据下银行交易欺诈检测模型实证分析.pdf](paper/不平衡数据下银行交易欺诈检测模型实证分析.pdf)。
