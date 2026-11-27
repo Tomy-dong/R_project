@@ -1,0 +1,18 @@
+# 数据文件（体积过大，请自行从 Kaggle 下载后放入 data/）
+*.csv
+data/*.csv
+
+# R 运行产物
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+
+# 模型与临时输出
+*.rds
+*.h5
+*.zip
+
+# 系统文件
+Thumbs.db
+.DS_Store
